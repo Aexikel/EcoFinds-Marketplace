@@ -1,4 +1,4 @@
-# Dev-storms-oddoXnmit
+# GemAI
 
 An online platform for buying and selling second-hand products.  
 Built with React, TypeScript, and Tailwind CSS.
@@ -17,7 +17,7 @@ Built with React, TypeScript, and Tailwind CSS.
 ## How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Vinikowshik17/Dev-storms-oddoXnmit.git
+   git clone https://github.com/rlshravanbhat-jpg/GenAI
 
 
 --------------------------------------------------------------------------------------------------------------------
