@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 import { Layout } from './components/Layout';
-import { Login } from './pages/Login';
-import { Home } from './pages/Home';
-import { ProductDetail } from './pages/ProductDetail';
-import { AddProduct } from './pages/AddProduct';
-import { EditProduct } from './pages/EditProduct';
-import { MyListings } from './pages/MyListings';
-import { Cart } from './pages/Cart';
-import { Dashboard } from './pages/Dashboard';
-import { Purchases } from './pages/Purchases';
+import { Login } from './Pages/Login';
+import { Home } from './Pages/Home';
+import { ProductDetail } from './Pages/ProductDetail';
+import { AddProduct } from './Pages/AddProduct';
+import { EditProduct } from './Pages/EditProduct';
+import { MyListings } from './Pages/MyListings';
+import { Cart } from './Pages/Cart';
+import { Dashboard } from './Pages/Dashboard';
+import { Purchases } from './Pages/Purchases.';
 
 const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user } = useAuth();
