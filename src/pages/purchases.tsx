@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, ShoppingBag, Package } from 'lucide-react';
 import { useCart } from '../context/CartContext';
