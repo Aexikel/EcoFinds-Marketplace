@@ -10,7 +10,7 @@ import { EditProduct } from './pages/EditProduct';
 import { MyListings } from './pages/MyListings';
 import { Cart } from './pages/Cart';
 import { Dashboard } from './pages/Dashboard';
-import { Purchases } from './pages/Purchases';
+
 
 const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user } = useAuth();
